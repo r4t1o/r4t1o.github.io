@@ -8,8 +8,8 @@ html {
   overflow: hidden;
   /* background-color: #141e30; */
   font-family: monospace;
-  background: linear-gradient(45deg, #000000 0%, #12100d 100%);
-  color: #fff8f0;
+  background: linear-gradient(45deg, #090916 0%, #02050c 100%);
+  color: #f2fff0;
 }
 
 .bg {
@@ -34,7 +34,7 @@ html {
   }
   
   .content {
-	background-color:rgba(255,255,255,.8);
+	background-color:rgba(255, 255, 255, 0.8);
 	border-radius:.25em;
 	box-shadow:0 0 .25em rgba(0,0,0,.25);
 	box-sizing:border-box;
@@ -122,7 +122,7 @@ img {
   color: #7D7D7D;
 }
 #wrapper span.lime:hover:after {
-  background-color: #b3a660;
+  background-color: #759765;
 }
 a {
 	text-decoration: none;
@@ -136,7 +136,7 @@ a {
 }
 
 a:hover {
-	color: #a7a7a7;
+	color: #979797;
 }
 
 .floatBox {
@@ -195,7 +195,7 @@ li {
 	bottom: 0;
 	height: 2px;
 	width: 0;
-	background: #b3a660;
+	background: #80ac6e;
 	transition: width 0.5s ease;
 }
 
@@ -215,7 +215,7 @@ li {
   animation: blink-animation 1s steps (10, start) infinite; 
 }
 
-  ::-moz-placeholder { color:rgb(78, 78, 78);
+  ::-moz-placeholder { color:rgb(255, 255, 255);
  }
 
 .search {
@@ -225,12 +225,12 @@ li {
 }
 input {
 	border:none;
-  border-bottom: 2px solid #a5a5a5;
+  border-bottom: 2px solid #ffffff;
   opacity: 0.4;
 	min-width: 505px;
 	padding-bottom: 10px;
 	background-color: transparent;
-	color: #adadad;
+	color: #ffffff;
 	outline: 0;
 	margin-bottom: 20px;
 }
@@ -250,11 +250,11 @@ input {
 
 input:focus { 
     outline: none;
-    border: 1px solid #696bff;
+    border: 1px solid #80be73;
 	border-width: 0 0 2px;
-    box-shadow: 0px 0px 8px #6670ff;
-    -moz-box-shadow: 0px 0px 8px #5d68ff;
-    -webkit-box-shadow: 0px 0px 8px #5e61ff;
+    box-shadow: 0px 0px 8px #589761;
+    -moz-box-shadow: 0px 0px 8px #5f9b64;
+    -webkit-box-shadow: 0px 0px 8px #79b37c;
 
 }
 
